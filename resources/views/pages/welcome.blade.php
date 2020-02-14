@@ -9,65 +9,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="{{ asset('css/custom_app.css') }}" rel="stylesheet">
+    <link href="{{ asset('fonts/remixicon.css') }}" rel="stylesheet">
+    <link href="{{ asset('fonts/remixicon.eot') }}">
+    <link href="{{ asset('fonts/remixicon.glyph.json') }}">
+    <link href="{{ asset('fonts/remixicon.less') }}">
+    <link href="{{ asset('fonts/remixicon.ttf') }}">
+    <link href="{{ asset('fonts/remixicon.woff') }}">
+    <link href="{{ asset('fonts/remixicon.woff2') }}">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <title>Laravel</title>
-    <!-- Styles -->
-    <style>
-        html,
-        body {
-            background-color: #fff;
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .full-height {
-            height: 100vh;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-
-        .content {
-            text-align: center;
-        }
-
-        .title {
-            font-size: 84px;
-        }
-
-        .links>a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -107,7 +60,7 @@
         </div>
     </nav>
     <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron mt-5">
             <h1 class="display-4">Welcome to My Blog!</h1>
             <p class="lead">Thankyou so much for visiting.</p>
             <hr class="my-4">
@@ -115,6 +68,55 @@
             <p class="lead">
                 <a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a>
             </p>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+              <hr>
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+              <hr>
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+              <hr>
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+              <hr>
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+              <hr>
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+              <hr>
+              <div class="post">
+                <h2>Post Title</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vel repellendus enim aspernatur molestiae nisi culpa animi itaque delectus, perferendis omnis distinctio adipisci dignissimos, saepe sapiente eligendi autem error laudantium...</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <aside class="aside col-md-4">
+                <h2>Sidebar</h2>
+            </aside>
+
         </div>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

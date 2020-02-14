@@ -1,0 +1,80 @@
+.alert-primary{background-color:#5D9CEC;border-color:#5D9CEC;}
+.alert-primary:hover{background-color:#4A89DC;border-color:#4A89DC;}
+.alert-secondary{background-color:#656d78;border-color:#656d78;}
+.alert-secondary:hover{background-color:#434a54;border-color:#434a54;}
+.alert-success{background-color:#48cfad;border-color:#48cfad;}
+.alert-success:hover{background-color:#37bc9b;border-color:#37bc9b;}
+.alert-info{background-color:#ac92ec;border-color:#ac92ec;}
+.alert-info:hover{background-color:#967adc;border-color:#967adc;}
+.alert-warning{background-color:#ffce54;border-color:#ffce54;}
+.alert-warning:hover{background-color:#f6bb42;border-color:#f6bb42;}
+.alert-danger{background-color:#ed5565;border-color:#ed5565;}
+.alert-danger:hover{background-color:#da4453;border-color:#da4453;}
+.alert-light{background-color:#f5f7fa;border-color:#f5f7fa;}
+.alert-light:hover{background-color:#e6e9ed;border-color:#e6e9ed;}
+
+.badge-primary{background-color:#5D9CEC !important;border-color:#5D9CEC !important;}
+.badge-primary:hover{background-color:#4A89DC !important;border-color:#4A89DC !important;}
+.badge-secondary{background-color:#656d78 !important;border-color:#656d78 !important;}
+.badge-secondary:hover{background-color:#434a54 !important;border-color:#434a54 !important;}
+.badge-success{background-color:#48cfad !important;border-color:#48cfad !important;}
+.badge-success:hover{background-color:#37bc9b !important;border-color:#37bc9b !important;}
+.badge-info{background-color:#ac92ec !important;border-color:#ac92ec !important;}
+.badge-info:hover{background-color:#967adc !important;border-color:#967adc !important;}
+.badge-warning{background-color:#ffce54 !important;border-color:#ffce54 !important;}
+.badge-warning:hover{background-color:#f6bb42 !important;border-color:#f6bb42 !important;}
+.badge-danger{background-color:#ed5565 !important;border-color:#ed5565 !important;}
+.badge-danger:hover{background-color:#da4453 !important;border-color:#da4453 !important;}
+.badge-light{background-color:#f5f7fa !important;border-color:#f5f7fa !important;}
+.badge-light:hover{background-color:#e6e9ed !important;border-color:#e6e9ed !important;}
+
+.btn-primary{background-color:#5D9CEC !important;border-color:#5D9CEC !important;}
+.btn-primary:hover{background-color:#4A89DC !important;border-color:#4A89DC !important;}
+.btn-secondary{background-color:#656d78 !important;border-color:#656d78 !important;}
+.btn-secondary:hover{background-color:#434a54 !important;border-color:#434a54 !important;}
+.btn-success{background-color:#48cfad !important;border-color:#48cfad !important;}
+.btn-success:hover{background-color:#37bc9b !important;border-color:#37bc9b !important;}
+.btn-info{background-color:#ac92ec !important;border-color:#ac92ec !important;}
+.btn-info:hover{background-color:#967adc !important;border-color:#967adc !important;}
+.btn-warning{background-color:#ffce54 !important;border-color:#ffce54 !important;}
+.btn-warning:hover{background-color:#f6bb42 !important;border-color:#f6bb42 !important;}
+.btn-danger{background-color:#ed5565 !important;border-color:#ed5565 !important;}
+.btn-danger:hover{background-color:#da4453 !important;border-color:#da4453 !important;}
+.btn-light{background-color:#f5f7fa !important;border-color:#f5f7fa !important;}
+.btn-light:hover{background-color:#e6e9ed !important;border-color:#e6e9ed !important;}
+
+.bg-primary{background-color:#5D9CEC !important;border-color:#5D9CEC !important;}
+.bg-secondary{background-color:#656d78 !important;border-color:#656d78 !important;}
+.bg-success{background-color:#48cfad !important;border-color:#48cfad !important;}
+.bg-info{background-color:#ac92ec !important;border-color:#ac92ec !important;}
+.bg-warning{background-color:#ffce54 !important;border-color:#ffce54 !important;}
+.bg-danger{background-color:#ed5565 !important;border-color:#ed5565 !important;}
+.bg-light{background-color:#f5f7fa !important;border-color:#f5f7fa !important;}
+
+.text-primary{background-color:#5D9CEC !important;border-color:#5D9CEC !important;}
+.text-secondary{background-color:#656d78 !important;border-color:#656d78 !important;}
+.text-success{background-color:#48cfad !important;border-color:#48cfad !important;}
+.text-info{background-color:#ac92ec !important;border-color:#ac92ec !important;}
+.text-warning{background-color:#ffce54 !important;border-color:#ffce54 !important;}
+.text-danger{background-color:#ed5565 !important;border-color:#ed5565 !important;}
+.text-light{background-color:#f5f7fa !important;border-color:#f5f7fa !important;}
+
+html, body{height:100%;}
+body {font-family:  'Nunito', sans-serif;font-weight: 400;font-style: normal;font-size: 14px;line-height: 1.8;padding: 0;margin: 0;color: #777D74;}
+ul, li{list-style-type:none;}
+a{color:#f67b45;}
+a:hover{text-decoration:none;color:inherit;}
+.btn.focus, .btn-primary:focus{outline:0!important;box-shadow: none!important;}
+h1 {color:#000;margin-top: 0px;margin-bottom: 20px;font-size: 31px;line-height: 40px;font-weight: 600 !important;}
+h2 {color:#000;letter-spacing:1px;margin-top: 0px!important;margin-bottom: 16px!important; font-size: 19px !important;line-height: 38px !important; font-weight: 700!important;}
+h3 {color:#000;margin-top: 0px;margin-bottom: 16px;font-size: 18px;line-height: 32px;font-weight: 500!important;}
+h4 {color:#000;margin-top: 0px;margin-bottom: 12px;font-size: 16px;line-height: 24px;font-weight: 500!important;}
+h5 {color:#000;margin-top: 0px;margin-bottom: 8px;font-size: 14px !important;line-height: 20px;font-weight: 500 !important;}
+h6 {color:#000;position:relative;margin-top: 0px;margin-bottom: 8px;font-size: 12px;line-height: 16px;font-weight: 500!important;}
+p {margin-bottom: 24px; font-size: 14px; line-height: 24px; margin-top: 0;}
+.text-grey {font-size: 13px;color: #4d5464;}
+.white {background-color:white;color: #21242d !important;font-size:11px!important;    z-index: 2; height: 20px;padding:0.25rem 0.4rem;border-radius:3px !important;font-weight:700;letter-spacing: 1;border-radius:1px;}
+blockquote {margin-top: 32px; margin-bottom: 32px; padding: 32px;border: 1px none #000; border-radius: 5px; background-color: #f4f5f8;    font-size: 16px;  line-height: 28px;   text-align: center;   }
+dl,ol,ul{margin-top:0;margin-bottom:5rem;}
+ol ol,ol ul,ul ol,ul ul{margin-bottom:0}
+ul li, ol li{margin-bottom:10px;}
